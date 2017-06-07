@@ -1,0 +1,82 @@
+
+
+## Anwesh Joshi
+##HW 3 TESTS
+
+
+Question 1: This program takes the numbers until the last one is 0 and 
+prints their average and remainder. If first number is 0, it doesn't print anything. 
+Here, what I have done is add all the input numbers except 0, which is considered the
+last input and then found the average and remaider by using a counter to find the total
+number of input.
+>>> 
+Enter debugging mode? no
+Enter number: 0
+>>> 
+Enter debugging mode? no
+Enter number: 1
+Enter number: 2
+Enter number: 3
+Enter number: 0
+2
+0
+>>> 
+Enter debugging mode? no
+Enter number: 100
+Enter number: 101
+Enter number: 102
+Enter number: 103
+Enter number: 0
+101
+2
+
+
+Question 2: This program will find the Nth term from Fiboanacci series (1,1,2,3,5...)
+and if N is 0 or negative, we print 0. But the program is written using loop.
+To find Fibonacci series using loop, I have simply set 0th terms as 0 and 1st term as 1
+and kept adding them to obtain the upcoming fibonacci terms. The counter is basically the
+input number which I keep decreasing to obtain 0 and print the result obtained. 
+>>> 
+Enter debugging mode? no
+Enter number: 0
+0
+>>> 
+Enter debugging mode? no
+Enter number: 6
+8
+>>> 
+Enter debugging mode? no
+Enter number: 2
+1
+>>> 
+Enter debugging mode? 
+Enter number: -2
+0
+
+
+Question 3: This program will print the Nth term from Fibonacci sequence as well but
+the program is written recursively.
+This program does same thing as the loopFibonacci but I used recursion in here. I keep
+adding the earlier numbers to get the (n-1) and (n-2)th terms using recursion by storing and
+loading these back in their respective registers. And then I simply added those to get the
+final solution.
+>>>
+Enter debugging mode? no
+Enter number: 0
+0
+>>> 
+Enter debugging mode? no
+Enter number: 10
+55
+>>> 
+Enter debugging mode? no
+Enter number: 2
+1
+>>> 
+Enter debugging mode? 
+Enter number: -2
+0
+
+
+
+
