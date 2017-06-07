@@ -1,0 +1,35 @@
+e 12/14/2016, 17:15, Test 1
+e 12/14/2016, 18:15, Test 2
+e 12/14/2016, 19:15, Test 3
+e 12/14/2016, 20:15, Test 1
+p
+d 1
+p
+h 3
+p
+?
+w foo.txt
+s ("Test 3")
+x
+p
+r foo.txt
+p
+t
+m 4
+m
+m20
+p
+q
+
+q
+
+p
+h
+h
+p
+h
+h
+q
+
+
+
